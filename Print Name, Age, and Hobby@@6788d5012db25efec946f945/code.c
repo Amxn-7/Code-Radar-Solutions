@@ -12,5 +12,5 @@ int main() {
     printf("Name: %s\n",a);
     printf("Age: %s\n",b);
     printf("Hobby: %s",c);
-    
+    return 0;
 }
