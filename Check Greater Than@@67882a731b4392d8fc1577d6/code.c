@@ -7,10 +7,10 @@ char* welcome() {
 int main() {
     int a= 3 ,b= 4;
     if(a>b){
-        print("False");
+        printf("False");
     }
     else{
-         printf("True"); 
+        printf("True"); 
     }
   
     return 0;
