@@ -8,11 +8,11 @@ int main() {
     int a,b;
     scanf("%d %d",&a , &b);
     if(a<0&&b<o){
-        print("True");
+        printf("True");
 
     }
     else{
-        print("False")
+        printf("False")
     }
     return 0;
 }
