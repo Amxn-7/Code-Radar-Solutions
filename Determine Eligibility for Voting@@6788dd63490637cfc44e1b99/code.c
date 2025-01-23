@@ -3,7 +3,6 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-
 int main() {
     int a;
     scanf("%d ", &a);
@@ -12,7 +11,6 @@ int main() {
     }
     else if(a<18){
         printf("Not Eligible");
-
     }
     return 0;
 }
