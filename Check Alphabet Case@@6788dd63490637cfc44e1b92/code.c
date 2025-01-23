@@ -13,8 +13,5 @@ int main() {
     else if((ch>='a')&&(ch<='z')){
         printf("Lowercase");
     }
-    else {
-        printf("Not a Letter");
-    }
     return 0;
 }
