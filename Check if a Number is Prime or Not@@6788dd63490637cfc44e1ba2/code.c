@@ -15,10 +15,10 @@ int main() {
     int num;
     scanf("%d", &num);
     if(isprime(num)){
-        printf("%s", num);
+        printf("Prime");
     }
     else{
-        printf("%s", num);
+        printf("Not Prime");
     }
     return 0;
 }
