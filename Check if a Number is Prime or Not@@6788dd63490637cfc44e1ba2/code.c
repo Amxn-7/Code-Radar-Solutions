@@ -15,7 +15,7 @@ int main() {
     int num;
     scanf("%d", &num);
     if(isprime(num)){
-        printf("%d", num);
+        printf("%s", num);
     }
     else{
         printf("%d", num);
