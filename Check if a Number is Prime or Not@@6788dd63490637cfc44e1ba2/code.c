@@ -7,11 +7,16 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d", &a);
-    if(a>1 && a%1==0 && a%a==0){
-        printf("Prime");
+    if(a<=1){
+        printf("Not Prime");
+    }
+    for (int i = 2; i <= sqrt(n); i++) {
+        if(a%i==0){
+            printf("Prime");
+        }
     }
     else{
-        prinf("Not Prime");
+        printf("Not Prime");
     }
 
     return 0;
