@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    int a>0;
-    scanf("%d",&a);
+    int a;
+    scanf("%d", &a);
     if(a>1 && a%1==0 && a%a==0){
         printf("Prime");
     }
