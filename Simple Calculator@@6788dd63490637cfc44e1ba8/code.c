@@ -5,20 +5,20 @@ char* welcome() {
 }
 
 int main() {
-    int a,b;
+    float a,b;
     char opr;
-    scanf("%d %d %c", &a,&b,&opr);
+    scanf("%f %f %c", &a,&b,&opr);
     if(opr=='+'){
-        printf("%d",a+b);
+        printf("%f",a+b);
     }
     else if(opr=='-'){
-        printf("%d",a-b);
+        printf("%f",a-b);
     }
     else if(opr=='*'){
-        printf("%d",a*b);
+        printf("%f",a*b);
     }
     else if(opr=='/'){
-        printf("%d",a/b);
+        printf("%f",a/b);
     }
     return 0;
 }
