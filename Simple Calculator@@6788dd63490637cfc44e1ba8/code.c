@@ -3,20 +3,21 @@ int main() {
     float a,b;
     char opr;
     scanf("%f %f %c", &a, &b, &opr);
-    if(opr=='+'){
+    switch(opr){
+        case '+':
         printf("%.0f",a+b);
-    }
-    else if(opr=='-'){
+        break;
+        case '-':
         printf("%.0f",a-b);
-    }
-    else if(opr=='*'){
+        break;
+        case '*':
         printf("%.0f",a*b);
-    }
-    else if(opr=='/'){
+        break;
+        case '/':
         printf("%.0f",a/b);
-    }
-    else{
-        printf("Error");
+        break;
+        default:
+        printf("error");
     }
     return 0;
 }
