@@ -9,16 +9,16 @@ int main() {
     char opr;
     scanf("%f %f %c", &a,&b,&opr);
     if(opr=='+'){
-        printf("%f",a+b);
+        printf("%.0f",a+b);
     }
     else if(opr=='-'){
-        printf("%f",a-b);
+        printf("%.0f",a-b);
     }
     else if(opr=='*'){
-        printf("%f",a*b);
+        printf("%.0f",a*b);
     }
     else if(opr=='/'){
-        printf("%f",a/b);
+        printf("%.0f",a/b);
     }
     return 0;
 }
