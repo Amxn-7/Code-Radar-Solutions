@@ -15,5 +15,8 @@ int main() {
     else if(opr=='/'){
         printf("%.0f",a/b);
     }
+    else{
+        printf("error");
+    }
     return 0;
 }
