@@ -2,7 +2,7 @@
 int main() {
     float a,b;
     char opr;
-    scanf("%f %f %c", &a,&b,&opr);
+    scanf("%f %f %c", &a, &b, &opr);
     if(opr=='+'){
         printf("%.0f",a+b);
     }
@@ -16,7 +16,7 @@ int main() {
         printf("%.0f",a/b);
     }
     else{
-        printf("error");
+        printf("Error");
     }
     return 0;
 }
