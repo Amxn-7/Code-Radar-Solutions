@@ -15,13 +15,13 @@ int main() {
         break;
         case '/':
         if(b==0){
-            printf("Error");
+            printf("error");
         }else{
             printf("%.0f",a/b);
         }
         break;
         default:
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
