@@ -14,7 +14,11 @@ int main() {
         printf("%.0f",a*b);
         break;
         case '/':
-        printf("%.0f",a/b);
+        if(b==0){
+            printf("Error");
+        }else{
+            printf("%.0f",a/b);
+        }
         break;
         default:
         printf("Error");
