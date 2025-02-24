@@ -10,7 +10,6 @@ int main() {
 
     // Validating bit position (for a 32-bit integer)
     if (n < 0 || n > 31) {
-        printf("Invalid bit position! Please enter a value between 0 and 31.\n");
         return 1;  // Exit with error
     }
 
