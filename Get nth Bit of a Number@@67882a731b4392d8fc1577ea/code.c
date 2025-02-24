@@ -17,7 +17,7 @@ int main() {
     bitValue = (num >> n) & 1;
 
     // Displaying the result
-    printf(" %d", bitValue);
+    printf("%d", bitValue);
 
     return 0;
 }
