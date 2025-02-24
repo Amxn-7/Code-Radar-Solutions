@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int num, n, bitValue;
+
+    // Taking input from the user
+    scanf("%d", &num);
+
+    scanf("%d", &n);
+
+    // Validating bit position (for a 32-bit integer)
+    if (n < 0 || n > 31) {
+        printf("Invalid bit position! Please enter a value between 0 and 31.\n");
+        return 1;  // Exit with error
+    }
+
+    // Retrieving the n-th bit value
+    bitValue = (num >> n) & 1;
+
+    // Displaying the result
+    printf(" %d", bitValue);
+
+    return 0;
+}
