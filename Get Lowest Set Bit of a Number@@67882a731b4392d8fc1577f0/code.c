@@ -1,33 +1,12 @@
 #include <stdio.h>
 
-// Function to find the position of the lowest set bit (1-based index)
-int findLowestSetBit(int num) {
-    if (num == 0)
-        return 0; // No set bit found if num is 0
-
-    int position = 1; // Start from position 1 (1-based index)
-    
-    while ((num & 1) == 0) { // Keep shifting right until we find a set bit
-        num >>= 1;
-        position++;
+void main(){
+    int a,pos=0;
+    scanf("%d",&a);
+    while (!(a&1)){
+        a>>=1;
+        pos++;
     }
+    printf("%d", pos);
 
-    return position;
-}
-
-int main() {
-    int num, position;
-
-    // Input number
-    scanf("%d", &num);
-
-    // Find the position of the lowest set bit
-    position = findLowestSetBit(num);
-
-    if (position != 0)
-        printf("%d", position);
-    else
-        printf("");
-
-    return 0;
 }
