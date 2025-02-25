@@ -24,10 +24,10 @@ int main() {
     // Find the position of the lowest set bit
     position = findLowestSetBit(num);
 
-    if (position == 0)
-        printf("No set bit found (number is 0).\n");
+    if (position != 0)
+        printf("%d", position);
     else
-        printf("The lowest set bit is at position: %d\n", position);
+        printf("");
 
     return 0;
 }
