@@ -7,7 +7,7 @@ int main(){
     scanf("%d" &num);
     scanf("%d", &n);
     result= clearnthbit(num, n);
-    print("%d", result);
+    printf("%d", result);
     return 0;
     
     return 0;
