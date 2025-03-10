@@ -1,16 +1,25 @@
-#include<stdio.h>
-int main(){
-    int a;
-    scanf("%d", &a);
-    for(int i;i<a; i++){
-        for(int j;j<a; j++){
-        if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    if (n < 2) {
+        printf(" ");
+        return 0;
+    }
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            // Print '*' for first/last row or first/last column
+            if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
                 printf("*");
-        } else {
+            } else {
                 printf(" ");
+            }
         }
         printf("\n");
-        }
-    }        
+    }
+
     return 0;
 }
