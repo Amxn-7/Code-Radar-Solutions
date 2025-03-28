@@ -11,8 +11,9 @@ int main() {
             printf("*");
         }
         printf("\n");
-    
-        for(int j=a; j>=1+i;j--){
+    }
+    for(int i=a-1; i>=a; i-- ){
+        for(int j=a; j<=a+i;j++){
             printf(" ");
         }
         for(int j=a;j>=2*i+1;j--){
