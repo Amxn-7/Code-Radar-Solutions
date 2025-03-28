@@ -16,7 +16,7 @@ int main() {
         for(int j=a; j<=a+i;j++){
             printf(" ");
         }
-        for(int j=a;j>=2*i+1;j--){
+        for(int j=a;j>=2*i-1;j--){
             printf("*");
         }
         printf("\n");
