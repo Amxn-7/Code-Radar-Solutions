@@ -12,6 +12,6 @@ int main() {
     }
     else if(!(a%2==0)){
         printf("Odd");
-    
+    }
     return 0;
 }
