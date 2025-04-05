@@ -9,7 +9,7 @@ int main() {
     // Use built-in function
     int trailingZeros = (num == 0) ? 32 : __builtin_ctz(num);
 
-    printf("%d", trailingZeros)
+    printf("%d", trailingZeros);
 
     return 0;
 }
